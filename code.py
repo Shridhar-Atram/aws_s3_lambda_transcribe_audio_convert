@@ -6,7 +6,7 @@ import uuid
 transcribe = boto3.client('transcribe')
 
 def lambda_handler(event, context):
-    print("i m lw...")
+    print("Author Shridhar")
     
     filename = event['Records'][0]['s3']['object']['key']
     bucketname = event['Records'][0]['s3']['bucket']['name']
